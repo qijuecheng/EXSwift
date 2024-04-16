@@ -8,8 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		5781538325AED10B0023EF00 /* EXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5781537925AED10A0023EF00 /* EXSwift.framework */; };
-		57F9A7902BCEDFFC0080228C /* EXSwiftTests in Resources */ = {isa = PBXBuildFile; fileRef = 57F9A78E2BCEDFFC0080228C /* EXSwiftTests */; };
-		57F9A7912BCEDFFC0080228C /* EXSwift in Resources */ = {isa = PBXBuildFile; fileRef = 57F9A78F2BCEDFFC0080228C /* EXSwift */; };
+		57F9A7A62BCEE19B0080228C /* EXInt64ToDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7992BCEE19B0080228C /* EXInt64ToDate.swift */; };
+		57F9A7A72BCEE19B0080228C /* EXDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A79A2BCEE19B0080228C /* EXDate.swift */; };
+		57F9A7A82BCEE19B0080228C /* EXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A79B2BCEE19B0080228C /* EXView.swift */; };
+		57F9A7A92BCEE19B0080228C /* EXString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A79C2BCEE19B0080228C /* EXString.swift */; };
+		57F9A7AA2BCEE19B0080228C /* EXFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A79D2BCEE19B0080228C /* EXFont.swift */; };
+		57F9A7AB2BCEE19B0080228C /* DateTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A79F2BCEE19B0080228C /* DateTimeInterval.swift */; };
+		57F9A7AC2BCEE19B0080228C /* DateFormmaterString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7A02BCEE19B0080228C /* DateFormmaterString.swift */; };
+		57F9A7AD2BCEE19B0080228C /* DateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7A12BCEE19B0080228C /* DateProvider.swift */; };
+		57F9A7AE2BCEE19B0080228C /* StringDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7A22BCEE19B0080228C /* StringDate.swift */; };
+		57F9A7AF2BCEE19B0080228C /* DateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7A32BCEE19B0080228C /* DateString.swift */; };
+		57F9A7B02BCEE19B0080228C /* EXSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A7A42BCEE19B0080228C /* EXSwift.h */; };
+		57F9A7B12BCEE19B0080228C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57F9A7A52BCEE19B0080228C /* Info.plist */; };
+		57F9A7B82BCEE1A30080228C /* EXSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7B32BCEE1A30080228C /* EXSwiftTests.swift */; };
+		57F9A7B92BCEE1A30080228C /* TimeNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7B52BCEE1A30080228C /* TimeNameSpace.swift */; };
+		57F9A7BA2BCEE1A30080228C /* ExtensionNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7B62BCEE1A30080228C /* ExtensionNameSpace.swift */; };
+		57F9A7BB2BCEE1A30080228C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57F9A7B72BCEE1A30080228C /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,8 +39,22 @@
 /* Begin PBXFileReference section */
 		5781537925AED10A0023EF00 /* EXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5781538225AED10B0023EF00 /* EXSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EXSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		57F9A78E2BCEDFFC0080228C /* EXSwiftTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EXSwiftTests; sourceTree = "<group>"; };
-		57F9A78F2BCEDFFC0080228C /* EXSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EXSwift; sourceTree = "<group>"; };
+		57F9A7992BCEE19B0080228C /* EXInt64ToDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXInt64ToDate.swift; sourceTree = "<group>"; };
+		57F9A79A2BCEE19B0080228C /* EXDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXDate.swift; sourceTree = "<group>"; };
+		57F9A79B2BCEE19B0080228C /* EXView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXView.swift; sourceTree = "<group>"; };
+		57F9A79C2BCEE19B0080228C /* EXString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXString.swift; sourceTree = "<group>"; };
+		57F9A79D2BCEE19B0080228C /* EXFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXFont.swift; sourceTree = "<group>"; };
+		57F9A79F2BCEE19B0080228C /* DateTimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeInterval.swift; sourceTree = "<group>"; };
+		57F9A7A02BCEE19B0080228C /* DateFormmaterString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormmaterString.swift; sourceTree = "<group>"; };
+		57F9A7A12BCEE19B0080228C /* DateProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateProvider.swift; sourceTree = "<group>"; };
+		57F9A7A22BCEE19B0080228C /* StringDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringDate.swift; sourceTree = "<group>"; };
+		57F9A7A32BCEE19B0080228C /* DateString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateString.swift; sourceTree = "<group>"; };
+		57F9A7A42BCEE19B0080228C /* EXSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXSwift.h; sourceTree = "<group>"; };
+		57F9A7A52BCEE19B0080228C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F9A7B32BCEE1A30080228C /* EXSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXSwiftTests.swift; sourceTree = "<group>"; };
+		57F9A7B52BCEE1A30080228C /* TimeNameSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeNameSpace.swift; sourceTree = "<group>"; };
+		57F9A7B62BCEE1A30080228C /* ExtensionNameSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionNameSpace.swift; sourceTree = "<group>"; };
+		57F9A7B72BCEE1A30080228C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +79,8 @@
 		5781536F25AED10A0023EF00 = {
 			isa = PBXGroup;
 			children = (
-				57F9A78F2BCEDFFC0080228C /* EXSwift */,
-				57F9A78E2BCEDFFC0080228C /* EXSwiftTests */,
+				57F9A7972BCEE19B0080228C /* EXSwift */,
+				57F9A7B22BCEE1A30080228C /* EXSwiftTests */,
 				5781537A25AED10A0023EF00 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +94,60 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		57F9A7972BCEE19B0080228C /* EXSwift */ = {
+			isa = PBXGroup;
+			children = (
+				57F9A7982BCEE19B0080228C /* EX */,
+				57F9A79E2BCEE19B0080228C /* Provider */,
+				57F9A7A42BCEE19B0080228C /* EXSwift.h */,
+				57F9A7A52BCEE19B0080228C /* Info.plist */,
+			);
+			path = EXSwift;
+			sourceTree = "<group>";
+		};
+		57F9A7982BCEE19B0080228C /* EX */ = {
+			isa = PBXGroup;
+			children = (
+				57F9A7992BCEE19B0080228C /* EXInt64ToDate.swift */,
+				57F9A79A2BCEE19B0080228C /* EXDate.swift */,
+				57F9A79B2BCEE19B0080228C /* EXView.swift */,
+				57F9A79C2BCEE19B0080228C /* EXString.swift */,
+				57F9A79D2BCEE19B0080228C /* EXFont.swift */,
+			);
+			path = EX;
+			sourceTree = "<group>";
+		};
+		57F9A79E2BCEE19B0080228C /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				57F9A79F2BCEE19B0080228C /* DateTimeInterval.swift */,
+				57F9A7A02BCEE19B0080228C /* DateFormmaterString.swift */,
+				57F9A7A12BCEE19B0080228C /* DateProvider.swift */,
+				57F9A7A22BCEE19B0080228C /* StringDate.swift */,
+				57F9A7A32BCEE19B0080228C /* DateString.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		57F9A7B22BCEE1A30080228C /* EXSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				57F9A7B32BCEE1A30080228C /* EXSwiftTests.swift */,
+				57F9A7B42BCEE1A30080228C /* NameSpace */,
+				57F9A7B72BCEE1A30080228C /* Info.plist */,
+			);
+			path = EXSwiftTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		57F9A7B42BCEE1A30080228C /* NameSpace */ = {
+			isa = PBXGroup;
+			children = (
+				57F9A7B52BCEE1A30080228C /* TimeNameSpace.swift */,
+				57F9A7B62BCEE1A30080228C /* ExtensionNameSpace.swift */,
+			);
+			path = NameSpace;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -73,6 +155,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F9A7B02BCEE19B0080228C /* EXSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,8 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F9A7902BCEDFFC0080228C /* EXSwiftTests in Resources */,
-				57F9A7912BCEDFFC0080228C /* EXSwift in Resources */,
+				57F9A7BB2BCEE1A30080228C /* Info.plist in Resources */,
+				57F9A7B12BCEE19B0080228C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +259,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F9A7A72BCEE19B0080228C /* EXDate.swift in Sources */,
+				57F9A7AB2BCEE19B0080228C /* DateTimeInterval.swift in Sources */,
+				57F9A7AA2BCEE19B0080228C /* EXFont.swift in Sources */,
+				57F9A7B82BCEE1A30080228C /* EXSwiftTests.swift in Sources */,
+				57F9A7A92BCEE19B0080228C /* EXString.swift in Sources */,
+				57F9A7A62BCEE19B0080228C /* EXInt64ToDate.swift in Sources */,
+				57F9A7B92BCEE1A30080228C /* TimeNameSpace.swift in Sources */,
+				57F9A7BA2BCEE1A30080228C /* ExtensionNameSpace.swift in Sources */,
+				57F9A7A82BCEE19B0080228C /* EXView.swift in Sources */,
+				57F9A7AF2BCEE19B0080228C /* DateString.swift in Sources */,
+				57F9A7AD2BCEE19B0080228C /* DateProvider.swift in Sources */,
+				57F9A7AC2BCEE19B0080228C /* DateFormmaterString.swift in Sources */,
+				57F9A7AE2BCEE19B0080228C /* StringDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +469,7 @@
 		5781539125AED10B0023EF00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2332YVCAKB;
 				INFOPLIST_FILE = EXSwiftTests/Info.plist;
@@ -391,6 +488,7 @@
 		5781539225AED10B0023EF00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2332YVCAKB;
 				INFOPLIST_FILE = EXSwiftTests/Info.plist;
