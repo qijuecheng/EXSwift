@@ -97,6 +97,7 @@
 		57F9A7972BCEE19B0080228C /* EXSwift */ = {
 			isa = PBXGroup;
 			children = (
+				57F9A7B42BCEE1A30080228C /* NameSpace */,
 				57F9A7982BCEE19B0080228C /* EX */,
 				57F9A79E2BCEE19B0080228C /* Provider */,
 				57F9A7A42BCEE19B0080228C /* EXSwift.h */,
@@ -133,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				57F9A7B32BCEE1A30080228C /* EXSwiftTests.swift */,
-				57F9A7B42BCEE1A30080228C /* NameSpace */,
 				57F9A7B72BCEE1A30080228C /* Info.plist */,
 			);
 			path = EXSwiftTests;
