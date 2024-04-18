@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5781538325AED10B0023EF00 /* EXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5781537925AED10A0023EF00 /* EXSwift.framework */; };
+		57DC9F422BD13AAD00374A05 /* TimeNameSpace.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A7B52BCEE1A30080228C /* TimeNameSpace.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F432BD13AAD00374A05 /* ExtensionNameSpace.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A7B62BCEE1A30080228C /* ExtensionNameSpace.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F442BD13AAD00374A05 /* EXInt64ToDate.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A7992BCEE19B0080228C /* EXInt64ToDate.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F452BD13AAD00374A05 /* EXDate.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A79A2BCEE19B0080228C /* EXDate.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F462BD13AAD00374A05 /* EXView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A79B2BCEE19B0080228C /* EXView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F472BD13AAD00374A05 /* EXString.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A79C2BCEE19B0080228C /* EXString.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F482BD13AAD00374A05 /* EXFont.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A79D2BCEE19B0080228C /* EXFont.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F492BD13AAD00374A05 /* DateTimeInterval.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A79F2BCEE19B0080228C /* DateTimeInterval.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F4A2BD13AAD00374A05 /* DateFormmaterString.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A7A02BCEE19B0080228C /* DateFormmaterString.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F4B2BD13AAD00374A05 /* DateProvider.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A7A12BCEE19B0080228C /* DateProvider.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F4C2BD13AAD00374A05 /* StringDate.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A7A22BCEE19B0080228C /* StringDate.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DC9F4D2BD13AAD00374A05 /* DateString.swift in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A7A32BCEE19B0080228C /* DateString.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		57F9A7A62BCEE19B0080228C /* EXInt64ToDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7992BCEE19B0080228C /* EXInt64ToDate.swift */; };
 		57F9A7A72BCEE19B0080228C /* EXDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A79A2BCEE19B0080228C /* EXDate.swift */; };
 		57F9A7A82BCEE19B0080228C /* EXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A79B2BCEE19B0080228C /* EXView.swift */; };
@@ -156,6 +168,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F9A7B02BCEE19B0080228C /* EXSwift.h in Headers */,
+				57DC9F422BD13AAD00374A05 /* TimeNameSpace.swift in Headers */,
+				57DC9F432BD13AAD00374A05 /* ExtensionNameSpace.swift in Headers */,
+				57DC9F442BD13AAD00374A05 /* EXInt64ToDate.swift in Headers */,
+				57DC9F452BD13AAD00374A05 /* EXDate.swift in Headers */,
+				57DC9F462BD13AAD00374A05 /* EXView.swift in Headers */,
+				57DC9F472BD13AAD00374A05 /* EXString.swift in Headers */,
+				57DC9F482BD13AAD00374A05 /* EXFont.swift in Headers */,
+				57DC9F492BD13AAD00374A05 /* DateTimeInterval.swift in Headers */,
+				57DC9F4A2BD13AAD00374A05 /* DateFormmaterString.swift in Headers */,
+				57DC9F4B2BD13AAD00374A05 /* DateProvider.swift in Headers */,
+				57DC9F4C2BD13AAD00374A05 /* StringDate.swift in Headers */,
+				57DC9F4D2BD13AAD00374A05 /* DateString.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
