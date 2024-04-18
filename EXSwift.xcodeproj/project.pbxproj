@@ -18,7 +18,7 @@
 		57F9A7AD2BCEE19B0080228C /* DateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7A12BCEE19B0080228C /* DateProvider.swift */; };
 		57F9A7AE2BCEE19B0080228C /* StringDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7A22BCEE19B0080228C /* StringDate.swift */; };
 		57F9A7AF2BCEE19B0080228C /* DateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7A32BCEE19B0080228C /* DateString.swift */; };
-		57F9A7B02BCEE19B0080228C /* EXSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A7A42BCEE19B0080228C /* EXSwift.h */; };
+		57F9A7B02BCEE19B0080228C /* EXSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F9A7A42BCEE19B0080228C /* EXSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57F9A7B12BCEE19B0080228C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57F9A7A52BCEE19B0080228C /* Info.plist */; };
 		57F9A7B82BCEE1A30080228C /* EXSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7B32BCEE1A30080228C /* EXSwiftTests.swift */; };
 		57F9A7B92BCEE1A30080228C /* TimeNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9A7B52BCEE1A30080228C /* TimeNameSpace.swift */; };
